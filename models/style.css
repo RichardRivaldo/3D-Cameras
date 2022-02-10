@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-size: 3vh;
+    font-weight: bold;
+    font-family: "Lora", serif;
+    color: rgb(93, 255, 201);
+    background-image: linear-gradient(75deg, #5bb2ff, #5b00a0);
+    column-gap: 10vh;
+}
+
+div {
+    position: relative;
+    text-align: center;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#ui-container {
+    flex-direction: column;
+    text-align: center;
+    justify-items: center;
+    margin: 0 auto;
+}
+
+.ui-setting {
+    justify-content: center;
+    margin-top: 100px;
+}
+
+canvas {
+    width: 100vw;
+    height: 60vh;
+    display: block;
+}
